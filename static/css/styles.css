@@ -1,0 +1,48 @@
+/* Map styling */
+#map {
+    height: 500px;
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+}
+
+/* Sidebar styling */
+.sidebar {
+    height: 100vh;
+    position: sticky;
+    top: 0;
+    overflow-y: auto;
+}
+
+/* Table styling */
+.table {
+    margin-top: 20px;
+}
+
+.table th {
+    font-weight: 600;
+}
+
+/* Form elements */
+.form-control {
+    margin-bottom: 10px;
+}
+
+.form-label {
+    font-weight: 500;
+}
+
+/* Buttons */
+.btn {
+    margin-right: 5px;
+}
+
+/* Coordinates display */
+#coordinatesDisplay {
+    min-height: 38px;
+    padding: 6px 12px;
+    background-color: #f8f9fa;
+    border-radius: 4px;
+    color: #495057;
+}
