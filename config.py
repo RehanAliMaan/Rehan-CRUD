@@ -1,8 +1,13 @@
+import os
+
+# Database configuration
 DB_CONFIG = {
-    'host': 'localhost',
-    'user': 'crud_user',
-    'password': 'SimplePass123',  # Must match the new password
-    'database': 'crud_app',
-    'auth_plugin': 'mysql_native_password'
+    'host': os.getenv('MYSQL_HOST', 'db'),
+    'user': os.getenv('MYSQL_USER', 'root'),
+    'password': os.getenv('MYSQL_PASSWORD', 'yourpassword'),
+    'database': os.getenv('MYSQL_DB', 'crud_db'),
+    'port': 3306
 }
-COUNTRIES_API_URL = 'https://countriesnow.space/api/v0.1'
+
+# Other configurations
+COUNTRIES_API_URL = "https://restcountries.com/v3.1/all"

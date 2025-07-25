@@ -280,3 +280,8 @@ if __name__ == '__main__':
     app.run(debug=True, port=3000)
 
   
+import os
+
+# Configure upload folder
+app.config['UPLOAD_FOLDER'] = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'data', 'uploads')
+os.makedirs(app.config['UPLOAD_FOLDER'], exist_ok=True)  # Creates dir if missing
