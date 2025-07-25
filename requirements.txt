@@ -379,3 +379,7 @@ zict @ file:///work/perseverance-python-buildout/croot/zict_1728398062732/work
 zipp @ file:///croot/zipp_1732630741423/work
 zope.interface @ file:///io/buildout/croot/zope.interface_1735844903240/work
 zstandard @ file:///croot/zstandard_1731356346222/work
+Flask==2.3.2
+Werkzeug==2.3.7
+pytest==7.4.0
+flake8==6.0.0
